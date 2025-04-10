@@ -5,28 +5,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Treact Project</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="index.js">
     <script
       src="https://kit.fontawesome.com/f26ac9e8de.js"
       crossorigin="anonymous"
     ></script>
 <body>
     <section id="nav_bar">
-    <nav>
-        <row class="row nav_row">
+        <nav>
+          <div class="row nav_row">
             <div class="nav_logo">
-                <img class="nav_logo-img" src="./assets/logo.2c489fc453a1783cbadacf914efa3df6.svg" alt="">
-                <div class="nav_logo-title">Treact</div>
+              <img class="nav_logo-img" src="./assets/logo.2c489fc453a1783cbadacf914efa3df6.svg" alt="">
+              <div class="nav_logo-title">Treact</div>
             </div>
+      
             <div class="nav_links">
-                <a class="nav_link" href="">About</a>
-                <a class="nav_link" href="">Blog</a>
-                <a class="nav_link" href="">Pricing</a>
-                <a class="nav_link" href="">Contact Us</a>
-                <a class="nav_link" href="">Login</a>
-                <a class="nav_link-primary" href="">Sign Up</a>
+              <a class="nav_link" href="">About</a>
+              <a class="nav_link" href="">Blog</a>
+              <a class="nav_link" href="">Pricing</a>
+              <a class="nav_link" href="">Contact Us</a>
+              <a class="nav_link" href="">Login</a>
+              <a class="nav_link-primary" href="">Sign Up</a>
             </div>
-        </row>
-    </nav>
+      
+            <button class="nav_toggle" id="navToggle">
+              <i class="fa-solid fa-bars"></i>
+            </button>
+          </div>
+      
+          <div class="nav_mobile-links" id="navMobileLinks">
+            <a class="nav_link" href="">About</a>
+            <a class="nav_link" href="">Blog</a>
+            <a class="nav_link" href="">Pricing</a>
+            <a class="nav_link" href="">Contact Us</a>
+            <a class="nav_link" href="">Login</a>
+            <a class="nav_link-primary" href="">Sign Up</a>
+          </div>
+        </nav>
+      </section>
     </section>
     <section class="landing_page">
         <div class="landing_about">
@@ -358,5 +374,6 @@
             </div>
         </div>
       </footer>
+      <script src="./index.js"></script>
 </body>
 </html>
