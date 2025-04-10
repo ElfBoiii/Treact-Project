@@ -1164,6 +1164,7 @@ footer {
   }
   
   @media (max-width: 480px) {
+
     .features_grid {
       grid-template-columns: 1fr;
     }
@@ -1183,6 +1184,20 @@ footer {
       align-items: center;
       text-align: center;
     }
+
+    .quality_work, .steps
+    ,.testimonials,.pricing {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    .qual_img, .steps_img {
+        display: none;
+    }
+
+    .test_img {
+        margin: 0;
+    }
   
     .plan_wrapper {
       gap: 24px;
@@ -1194,6 +1209,10 @@ footer {
   
     .rating_account-wrapper {
       justify-content: center;
+    }
+
+    .get_started {
+        
     }
   
     .footer_link-wrapper {
