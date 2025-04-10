@@ -550,3 +550,159 @@ nav {
 .learn_more_btn:hover {
     background-color: rgb(85, 18, 220);
 }
+
+/* PRICING */
+
+.pricing {
+    padding: 80px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .pricing_tagline {
+    color: rgb(100, 21, 255);
+    font-weight: 700;
+    font-size: 0.875rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+  }
+  
+  .pricing_heading {
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin-bottom: 20px;
+    line-height: 1.3;
+  }
+  
+  .pricing_heading-para {
+    font-size: 1rem;
+    color: #555;
+    max-width: 700px;
+    margin: 0 auto 60px;
+    line-height: 1.6;
+  }
+  
+  /* Pricing cards container */
+  .plan_wrapper {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 32px;
+  }
+  
+  /* Each plan card */
+  .plan {
+    background-color: white;
+    border: 2px solid transparent;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+    padding: 40px 30px;
+    flex: 1 1 300px;
+    max-width: 340px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .plan:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.08);
+  }
+  
+  /* Top section */
+  .plan_top {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .plan_heading {
+    font-weight: bold;
+    font-size: 1.125rem;
+    color: #333;
+    margin-bottom: 8px;
+  }
+  
+  .plan_price {
+    font-size: 2rem;
+    font-weight: 800;
+    color: rgb(100, 21, 255);
+  }
+  
+  .plan_time {
+    font-size: 0.875rem;
+    color: #888;
+  }
+  
+  /* Middle section */
+  .plan_middle {
+    margin-bottom: 30px;
+  }
+  
+  .plan_target {
+    font-weight: 600;
+    margin-bottom: 12px;
+    color: #333;
+  }
+  
+  .plan_feature {
+    font-size: 0.95rem;
+    color: #555;
+    margin: 6px 0;
+  }
+  
+  /* Bottom section */
+  .plan_bottom {
+    margin-top: auto;
+  }
+  
+  .plan_button {
+    color: white;
+    font-weight: bold;
+    padding: 12px 28px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+  }
+
+  .btn_personal {
+    background-color: #3B82F6;;
+  }
+
+  .btn_business {
+    background-color: rgb(100, 21, 255);
+  }
+
+  .btn_enterprise {
+    background-color: #10B981;
+  }
+
+  .btn_personal:hover {
+    background-color: #306fd4;
+  }
+
+  .btn_business:hover {
+    background-color: rgb(113, 45, 248);
+  }
+
+  .btn_enterprise:hover {
+    background-color: #0e996b;
+  }
+  
+
+  .plan_business {
+    border: 2px solid rgb(100, 21, 255);
+    transform: scale(1.05);
+  }
+
+  .plan_personal {
+    border-color: #3B82F6;
+  }
+  
+  .plan_enterprise {
+    border-color: #10B981;
+  }
