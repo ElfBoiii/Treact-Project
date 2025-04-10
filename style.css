@@ -706,3 +706,141 @@ nav {
   .plan_enterprise {
     border-color: #10B981;
   }
+
+  /* TESTIMONIALS */
+
+  .testimonials {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    padding: 80px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Illustration on the left */
+  .test_img {
+    flex: 1 1 500px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .test_img img {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+  }
+  
+  /* Testimonial Content */
+  .test_about-wrapper {
+    flex: 1 1 500px;
+  }
+  
+  .test_tagline {
+    color: rgb(100, 21, 255);
+    font-weight: 700;
+    font-size: 0.875rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+  }
+  
+  .test_heading {
+    font-size: 2.25rem;
+    font-weight: 800;
+    margin-bottom: 20px;
+    line-height: 1.3;
+  }
+  
+  .test_para {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 30px;
+    max-width: 600px;
+  }
+  
+  /* Star Rating */
+  .rating {
+    display: flex;
+    font-size: 1.2rem;
+    margin-bottom: 16px;
+  }
+
+  .rating i{
+    color: rgb(250, 204, 21);
+  }
+  
+  .rating_header {
+    font-size: 1.125rem;
+    font-weight: 700;
+    margin-bottom: 16px;
+  }
+  
+  .rating_para {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 30px;
+  }
+  
+  /* Account Info & Arrows */
+  .rating_account-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    position: relative;
+  }
+  
+  .rating_account-wrapper img {
+    width: 56px;
+    height: 56px;
+    border-radius: 999px;
+    object-fit: cover;
+  }
+  
+  .rating_account-name {
+    font-size: 1rem;
+    font-weight: 700;
+    margin: 0;
+  }
+  
+  .rating_job {
+    font-size: 0.875rem;
+    color: #888;
+    margin: 0;
+  }
+  
+  /* Arrows */
+  .back_arrow,
+  .front_arrow {
+    position: absolute;
+    right: 0;
+    background-color: #f1f1f1;
+    border: none;
+    border-radius: 999px;
+    width: 36px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #333;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  .back_arrow:hover,
+  .front_arrow:hover {
+    background-color: #ddd;
+  }
+  
+  .back_arrow {
+    right: 50px;
+  }
+  
+  .front_arrow {
+    right: 0;
+  }
