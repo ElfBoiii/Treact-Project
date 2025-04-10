@@ -5,6 +5,8 @@
     padding: 0;
     margin: 0;
     font-family: 'Roboto', sans-serif;
+    color: rgb(36, 62, 99);
+    margin: auto 0;
 }
 
 .row {
@@ -18,15 +20,29 @@ a {
     display: inline;
 }
 
-#landing {
-    padding: 0 32px;
+h1 {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+p {
+    font-size: 16px;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+.text-purple {
+    color: rgb(100,21,255);
 }
 
 /* NAV */
 
 nav {
     width: 100%;
-    max-width: 1200px;
+    max-width: 1200vh;
     margin: 0 auto;
     margin-top: 32px;
 }
@@ -60,7 +76,6 @@ nav {
     font-size: 16px;
     font-weight: 600;
     letter-spacing: .35px;
-    color: gray;
 }
 
 .nav_link:hover {
@@ -72,6 +87,97 @@ nav {
     border: solid rgb(100,21,255) 3px;
     border-radius: 99px;
     padding: 10px 32px;
+    font-size: 16px;
+    font-weight: 600;
     color:white;
     background-color: rgb(100,21,255);
+    transition: background-color 0.3s ease;
+}
+
+.nav_link-primary:hover {
+    background-color: rgb(85, 18, 220);
+}
+
+/* LANDING PAGE */
+
+.landing_page {
+    display: flex;
+    justify-content: center;
+    max-width: 1200vh;
+    margin: 40px;
+}
+
+.landing_about {
+    max-width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.about_heading {
+    font-size: 48px;
+    padding: 0 0 40px 0;
+    color: black;
+}
+
+.about_para {
+    font-size: 20px;
+}
+
+.email-wrapper {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 99px;
+    padding: 5px;
+    background-color: white;
+    max-width: 500px;
+    width: 100%;
+    margin: 20px auto;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.email-input {
+    flex: 1;
+    border: none;
+    padding: 15px 20px;
+    border-radius: 99px;
+    font-size: 16px;
+    outline: none;
+}
+
+.email-button {
+    background-color: rgb(100,21,255);
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 99px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.email-button:hover {
+    background-color: rgb(85, 18, 220);
+}
+
+.trusted_companies {
+    margin-top: 48px;
+    margin-right: 48px;
+}
+
+.trusted_companies-title {
+    color: gray;
+    opacity: 0.6;
+}
+
+.trusted_companies-img {
+    filter: grayscale(100%);
+    opacity: 0.6;
+}
+
+.landing_img {
+    max-width: 60%;
 }
