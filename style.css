@@ -1107,3 +1107,107 @@ footer {
     color: white;
   }
   
+
+  @media (max-width: 768px) {
+    .landing_page {
+      flex-direction: column;
+      align-items: center;
+      margin: 40px 16px;
+    }
+  
+    .landing_about,
+    .landing_img {
+      max-width: 100%;
+      text-align: center;
+    }
+  
+    .email-wrapper {
+      flex-direction: column;
+      padding: 16px;
+      border-radius: 16px;
+    }
+  
+    .email-input {
+      width: 100%;
+      text-align: center;
+      margin-bottom: 12px;
+      padding: 12px;
+    }
+  
+    .email-button {
+      width: 100%;
+      padding: 12px;
+    }
+  
+    .features_grid {
+      grid-template-columns: 1fr 1fr;
+    }
+  
+    .quality_work,
+    .steps,
+    .values_wrapper,
+    .testimonials,
+    .footer_bottom,
+    .get_started-wrapper {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .plan {
+      flex: 1 1 100%;
+      max-width: 100%;
+    }
+  
+    .get_started-buttons {
+      justify-content: center;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .features_grid {
+      grid-template-columns: 1fr;
+    }
+  
+    .about_heading,
+    .features_heading,
+    .qual_heading,
+    .steps_heading,
+    .values_heading,
+    .pricing_heading,
+    .test_heading {
+      font-size: 1.75rem;
+    }
+  
+    .feature_wrapper {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  
+    .plan_wrapper {
+      gap: 24px;
+    }
+  
+    .plan {
+      padding: 24px 20px;
+    }
+  
+    .rating_account-wrapper {
+      justify-content: center;
+    }
+  
+    .footer_link-wrapper {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+
+    .footer_main {
+        width: calc(100/2);
+    }
+  
+    .footer_bottom {
+      justify-content: center;
+      text-align: center;
+    }
+  }
